@@ -4,8 +4,6 @@ This project implements a distributed, high-performance API rate limiter designe
 
 The system is architected as a set of independent microservices orchestrated with Docker, featuring a central API Gateway that seamlessly integrates the rate-limiting logic.
 
-[![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2025-orange.svg)](https://hacktoberfest.com/)
-
 ## System Architecture
 
 The architecture consists of four main components that work together to process and rate-limit incoming requests:
