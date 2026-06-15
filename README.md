@@ -1,4 +1,4 @@
-# High-Throughput API Rate Limiter
+w# High-Throughput API Rate Limiter
 
 This project implements a distributed, high-performance API rate limiter designed to protect backend services from traffic bursts and ensure fair usage. Built with a modern Java stack, it leverages Redis for high-speed, distributed state management and employs the **Token Bucket algorithm** for scalable and efficient request throttling.
 
@@ -82,19 +82,6 @@ These metrics confirm that the rate limiter adds minimal overhead while effectiv
 
 This is the easiest way to get all services up and running.
 
-1. **Clone the repository:**
-
-```
-git clone https://github.com/sonii-shivansh/api-rate-limiter.git
-cd api-rate-limiter
-```
-
-2. **Build and run the services using Docker Compose:**
-
-```
-docker-compose up --build -d
-```
-This command will build the images for all services and start them in detached mode.
 
 ### **Running Locally (Without Docker)**
 
